@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selami Oruç | Sarıyer OSGB & İş Güvenliği Uzmanı | İstinye İSG Danışmanlığı</title>
+    
+    <!-- SEO Meta Etiketleri -->
+    <meta name="description" content="Sarıyer OSGB ve İş Sağlığı Güvenliği hizmetleri. A Sınıfı İş Güvenliği Uzmanı ve Endüstri Mühendisi Selami Oruç ile risk değerlendirmesi, acil durum planı, İSG eğitimleri ve işyeri hekimi danışmanlığı. Sarıyer İstinye.">
+    <meta name="keywords" content="sarıyer osgb, sarıyerosgb, isg, iş güvenliği, iş güvenliği uzmanlığı, iş güvenliği uzmanı, sarıyer iş güvenliği, istinye isg, a sınıfı iş güvenliği uzmanı, selami oruç, işyeri hekimi, risk değerlendirme raporu, acil durum planı, yangın eğitimi, yüksekte çalışma eğitimi">
+    <meta name="author" content="Selami Oruç - Endüstri Mühendisi & A Sınıfı İSG Uzmanı">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Sosyal Medya Meta Etiketleri -->
+    <meta property="og:title" content="Selami Oruç - Sarıyer OSGB & İSG İş Güvenliği Danışmanlığı">
+    <meta property="og:description" content="Sarıyer OSGB, İSG ve İş Güvenliği Uzmanlığı hizmetleri. Risk analizi, işyeri hekimliği ve temel eğitimler.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+
+    <!-- JSON-LD Yapısal Veri (Arama Motorları İçin Gizli Anahtar Kelime & İşletme Şeması) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Selami Oruç - Sarıyer OSGB & İSG Danışmanlık Hizmetleri",
+      "image": "https://placehold.co/600x400/16a34a/ffffff?text=Sariyer+OSGB+ISG",
+      "telephone": "+905511000022",
+      "email": "istanbulisig@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "İstinye Mahallesi, Merkez",
+        "addressLocality": "Sarıyer",
+        "addressRegion": "İstanbul",
+        "countryName": "TR"
+      },
+      "keywords": "sarıyer osgb, sarıyerosgb, isg, iş güvenliği, iş güvenliği uzmanlığı, iş güvenliği uzmanı, a sınıfı iş güvenliği uzmanı, işyeri hekimi",
+      "description": "Sarıyer ve İstinye bölgesinde A Sınıfı İş Güvenliği Uzmanı ve Endüstri Mühendisi Selami Oruç yönetiminde profesyonel İSG, Sarıyer OSGB ve İş Sağlığı Güvenliği çözümleri.",
+      "founder": {
+        "@type": "Person",
+        "name": "Selami Oruç",
+        "jobTitle": "A Sınıfı İş Güvenliği Uzmanı & Endüstri Mühendisi"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Iconlar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Inter) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        navy: {
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Header / Navigasyon -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo & Firma Adı -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-12 h-12 bg-brand-600 rounded-xl flex items-center justify-center text-white shadow-md shadow-brand-600/30">
+                        <i class="fa-solid font-bold text-2xl">SO</i>
+                    </div>
+                    <div>
+                        <span class="text-xl font-bold tracking-tight text-navy-900 block leading-tight">SELAMİ ORUÇ</span>
+                        <span class="text-xs font-semibold text-brand-700 tracking-wider uppercase">İSG & Danışmanlık Hizmetleri</span>
+                    </div>
+                </div>
+
+                <!-- Masaüstü Menü -->
+                <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                    <a href="#anasayfa" class="hover:text-brand-600 transition-colors">Ana Sayfa</a>
+                    <a href="#hakkimda" class="hover:text-brand-600 transition-colors">Hakkımda</a>
+                    <a href="#hizmetler" class="hover:text-brand-600 transition-colors">Hizmetlerimiz</a>
+                    <a href="#mevzuat" class="hover:text-brand-600 transition-colors">Mevzuat</a>
+                    <a href="#referanslar" class="hover:text-brand-600 transition-colors">Referanslar</a>
+                    <a href="#iletisim" class="hover:text-brand-600 transition-colors">İletişim</a>
+                </nav>
+
+                <!-- İletişim Butonu -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <a href="tel:05511000022" class="flex items-center space-x-2 bg-brand-50 text-brand-700 border border-brand-200 hover:bg-brand-100 px-4 py-2 rounded-lg font-semibold text-sm transition-all">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>0551 100 00 22</span>
+                    </a>
+                </div>
+
+                <!-- Mobil Menü Butonu -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" type="button" class="text-slate-600 hover:text-slate-900 focus:outline-none p-2" aria-label="Menüyü Aç">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobil Menü İçeriği -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3 shadow-lg">
+            <a href="#anasayfa" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">Ana Sayfa</a>
+            <a href="#hakkimda" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">Hakkımda</a>
+            <a href="#hizmetler" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">Hizmetlerimiz</a>
+            <a href="#mevzuat" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">Mevzuat</a>
+            <a href="#referanslar" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">Referanslar</a>
+            <a href="#iletisim" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-brand-600">İletişim</a>
+            <a href="tel:05511000022" class="w-full flex justify-center items-center space-x-2 bg-brand-600 text-white py-3 rounded-lg font-semibold">
+                <i class="fa-solid fa-phone"></i>
+                <span>0551 100 00 22</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero / Karşılama Bölümü -->
+    <section id="anasayfa" class="relative bg-gradient-to-b from-slate-900 via-navy-900 to-slate-900 text-white py-24 lg:py-32 overflow-hidden" aria-label="Sarıyer OSGB İSG ve İş Güvenliği Uzmanı Karşılama">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#22c55e_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-slate-800/80 border border-slate-700 rounded-full px-4 py-1.5 text-xs sm:text-sm text-brand-500 font-medium">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Sarıyer OSGB & İstinye Merkezli İSG Danışmanlığı</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight text-white">
+                        Sarıyer İş Güvenliği & <span class="text-brand-500">A Sınıfı İSG Uzmanlığı</span> Hizmetleri
+                    </h1>
+                    <p class="text-base sm:text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        A Sınıfı İş Güvenliği Uzmanı ve Endüstri Mühendisi Selami Oruç liderliğinde; Sarıyer OSGB standartlarında yasal mevzuata tam uygunluk, risk değerlendirmesi, acil durum planlamaları ve profesyonel iş sağlığı iş güvenliği çözümleri sunuyoruz.
+                    </p>
+                    <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#iletisim" class="inline-flex items-center justify-center bg-brand-600 hover:bg-brand-700 text-white font-bold px-8 py-3.5 rounded-xl shadow-lg shadow-brand-600/30 transition-all text-center">
+                            Teklif Alın / İletişime Geçin
+                        </a>
+                        <a href="#hizmetler" class="inline-flex items-center justify-center bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-semibold px-8 py-3.5 rounded-xl transition-all text-center">
+                            Hizmetlerimizi İnceleyin
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kart / Bilgi Görsel Alanı -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="w-full max-w-md bg-slate-800/90 border border-slate-700 backdrop-blur-xl rounded-2xl p-6 shadow-2xl space-y-6">
+                        <div class="flex items-center space-x-4 border-b border-slate-700 pb-4">
+                            <img src="1784375754619.jfif" alt="Selami Oruç - A Sınıfı İSG Uzmanı" class="w-16 h-16 rounded-full object-cover border-2 border-brand-500 shadow-md flex-shrink-0">
+                            <div>
+                                <h3 class="text-lg font-bold text-white">Selami Oruç</h3>
+                                <p class="text-xs text-brand-400 font-semibold">A Sınıfı İSG Uzmanı & Endüstri Mühendisi</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4 text-sm text-slate-300">
+                            <div class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>6331 Sayılı Kanun ve Yönetmelik Uyum Danışmanlığı</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Temel Yangın Eğitimi Sertifikasyonu</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>Yüksekte Çalışma Eğitimi Yetkinliği</span>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-check text-brand-500 mt-1"></i>
+                                <span>İşyeri Hekimliği & Periyodik Muayene Hizmetleri</span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 border-t border-slate-700">
+                            <a href="tel:05511000022" class="w-full bg-slate-700 hover:bg-slate-600 text-brand-400 font-bold py-3 px-4 rounded-xl flex items-center justify-center space-x-2 transition-all">
+                                <i class="fa-solid fa-headset"></i>
+                                <span>Hemen Arayın: 0551 100 00 22</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda Bölümü -->
+    <section id="hakkimda" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 relative">
+                    <div class="relative bg-gradient-to-tr from-brand-600 to-navy-900 rounded-3xl p-8 text-white shadow-xl overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-white/10 rounded-full blur-2xl"></div>
+                        <div class="flex items-center space-x-4 mb-6">
+                            <img src="1784375754619.jfif" alt="Selami Oruç Profil" class="w-20 h-20 rounded-full object-cover border-4 border-white/30 shadow-lg">
+                            <div>
+                                <span class="text-brand-300 font-bold tracking-wider text-xs uppercase block">Uzman Profili</span>
+                                <h2 class="text-2xl font-extrabold">Selami Oruç</h2>
+                                <p class="text-xs text-slate-200 font-medium">A Sınıfı İSG Uzmanı & Endüstri Mühendisi</p>
+                            </div>
+                        </div>
+                        <p class="text-slate-200 text-sm leading-relaxed mb-6">
+                            Endüstri Mühendisi altyapımla iş süreçlerindeki verimliliği ve İş Sağlığı & Güvenliği standartlarını en üst düzeyde birleştiriyorum. A Sınıfı İş Güvenliği Uzmanı olarak sanayi, inşaat, lojistik ve sağlık sektörleri dahil geniş bir yelpazede hizmet sunmaktayım.
+                        </p>
+                        
+                        <div class="grid grid-cols-2 gap-4 border-t border-white/20 pt-6">
+                            <div>
+                                <h4 class="text-xs text-slate-300 font-medium">Unvan</h4>
+                                <p class="text-sm font-bold text-white">Endüstri Mühendisi</p>
+                            </div>
+                            <div>
+                                <h4 class="text-xs text-slate-300 font-medium">İSG Yetki Sınıfı</h4>
+                                <p class="text-sm font-bold text-white">A Sınıfı İSG Uzmanı</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-block px-3 py-1 bg-brand-100 text-brand-800 rounded-md text-xs font-bold uppercase tracking-wider">
+                        Yetkinlikler & Sertifikasyonlar
+                    </div>
+                    <h2 class="text-3xl font-extrabold text-navy-900">
+                        Güvenli ve Sağlıklı Çalışma Ortamları İnşa Ediyoruz
+                    </h2>
+                    <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                        Sarıyer İstinye mahallesinde bulunan danışmanlık merkezimizden İstanbul geneline ve tüm Türkiye'ye profesyonel İSG ve İşyeri Hekimliği hizmetleri sağlıyoruz. 
+                    </p>
+
+                    <!-- Yetkinlik Kutuları -->
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition-all">
+                            <div class="w-10 h-10 rounded-lg bg-red-100 text-red-600 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-fire font-bold"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Temel Yangın Eğitimi Yetkinliği</h3>
+                                <p class="text-xs sm:text-sm text-slate-500 mt-1">Yangın önleme, söndürme teknikleri, tahliye ve müdahale konusunda teorik ve pratik uzman eğitimi.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-100 hover:border-brand-300 transition-all">
+                            <div class="w-10 h-10 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-person-falling-burst font-bold"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-slate-900 text-sm sm:text-base">Yüksekte Çalışma Eğitimi Yetkinliği</h3>
+                                <p class="text-xs sm:text-sm text-slate-500 mt-1">Yüksekte yapılan çalışmalarda risk faktörlerini sıfırlamaya yönelik ekipman kullanımı ve güvenlik eğitimi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-2 flex items-center space-x-3 text-xs text-slate-500 bg-amber-50 p-3 rounded-lg border border-amber-200">
+                        <i class="fa-solid fa-circle-info text-amber-600 text-base"></i>
+                        <span>İşletmenize özel detaylı değerlendirmeler ve eksik bilgilerin analizi için CV mi talep üzerine gönderebilirim.</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetlerimiz Bölümü -->
+    <section id="hizmetler" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-bold tracking-wider text-xs uppercase bg-brand-100 px-3 py-1 rounded-full">Kapsamlı Hizmet Kataloğu</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3">İş Sağlığı ve Güvenliği Hizmetlerimiz</h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">Mevzuata %100 uygun, tesis ve saha ihtiyaçlarınıza özel profesyonel hizmet sunuyoruz.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- 1. İŞ GÜVENLİĞİ UZMANLIK FAALİYETLERİ -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="flex items-center space-x-4 mb-6 border-b border-slate-100 pb-4">
+                        <div class="w-12 h-12 bg-brand-600 text-white rounded-xl flex items-center justify-center text-xl shadow-md shadow-brand-600/20">
+                            <i class="fa-solid fa-hard-hat"></i>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold text-brand-600 tracking-wider uppercase">Kategori 1</span>
+                            <h3 class="text-xl font-bold text-navy-900">İş Güvenliği Uzmanlık Faaliyetleri</h3>
+                        </div>
+                    </div>
+
+                    <ul class="space-y-3.5">
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-shield-halved text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Risk Değerlendirme Raporu Hazırlama:</strong> İşyerindeki olası tehlikelerin tespiti ve derecelendirilmesi.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-clipboard-list text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Acil Durum Planı Oluşturma:</strong> Olası kriz ve afet durumları için detaylı hareket planları.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-bell-concierge text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Acil Durum Tatbikatları:</strong> Tahliye ve acil müdahale ekiplerinin pratik saha uygulamaları.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-chalkboard-user text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Acil Durum Eğitimleri:</strong> Çalışanların acil durumlardaki rol ve sorumluluk bilgilendirmeleri.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-fire-extinguisher text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Yangın Eğitimleri:</strong> Temel yangın güvenliği, müdahale ve önleyici tedbir eğitimleri.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-book-open-reader text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">İş Sağlığı ve İş Güvenliği Temel Eğitimleri:</strong> Yasal zorunluluk kapsamındaki çalışan eğitimleri.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-gears text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">İş Ekipmanlarının Takibi:</strong> Periyodik kontrol, bakım ve muayene süreçlerinin takibi.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-list-check text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Saha Kontrolleri:</strong> Düzenli saha denetimleri ve eksikliklerin raporlanması.</span>
+                        </li>
+                        <li class="flex items-start space-x-3">
+                            <i class="fa-solid fa-person-arrow-up-from-line text-brand-600 mt-1"></i>
+                            <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Yüksekte Çalışma Eğitimleri:</strong> Güvenli yüksekte çalışma teknikleri ve ekipman sertifikasyonu.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 2. İŞYERİ HEKİMİ FAALİYETLERİ -->
+                <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200 hover:shadow-md transition-shadow flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-4 mb-6 border-b border-slate-100 pb-4">
+                            <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-xl shadow-md shadow-blue-600/20">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+                            <div>
+                                <span class="text-xs font-bold text-blue-600 tracking-wider uppercase">Kategori 2</span>
+                                <h3 class="text-xl font-bold text-navy-900">İşyeri Hekimi Faaliyetleri</h3>
+                            </div>
+                        </div>
+
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-heart-pulse text-blue-600 mt-1 text-lg"></i>
+                                <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Çalışanların Periyodik Muayeneleri:</strong> İşe giriş ve belirli aralıklarla tekrarlanan genel sağlık taramaları, meslek hastalığı takibi ve muayene kayıtları.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-notes-medical text-blue-600 mt-1 text-lg"></i>
+                                <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">Sağlık Gözetimi ve Danışmanlık:</strong> İş ortamındaki biyolojik, kimyasal ve fiziksel risklerin çalışan sağlığı üzerindeki etkilerinin takibi.</span>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-kit-medical text-blue-600 mt-1 text-lg"></i>
+                                <span class="text-slate-700 text-sm font-medium"><strong class="text-slate-900">İlkyardım Organization & Hijyen Denetimleri:</strong> İşyeri hijyen şartlarının denetlenmesi ve ilkyardım süreçlerinin organizasyonu.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-8 bg-blue-50 border border-blue-100 p-4 rounded-xl">
+                        <div class="flex items-center space-x-3 text-blue-800">
+                            <i class="fa-solid fa-hospital-user text-xl"></i>
+                            <p class="text-xs font-medium">Sağlık Bakanlığı ve Çalışma Bakanlığı standartlarına tam uyum ile çalışanlarınızın sağlığını güvence altına alıyoruz.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Saha ve Eğitim Görselleri / Uygulama Galerisi -->
+            <div class="mt-12 bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 border-b border-slate-100 pb-4">
+                    <div>
+                        <span class="text-xs font-bold text-brand-600 tracking-wider uppercase">Saha Görsellerimiz</span>
+                        <h3 class="text-xl font-bold text-navy-900">Gerçekleştirdiğimiz Tatbikat ve Saha Eğitimlerinden Kareler</h3>
+                    </div>
+                    <span class="text-xs text-slate-500 mt-2 sm:mt-0 font-medium"><i class="fa-solid fa-camera text-brand-600 mr-1"></i> Uygulamalı Eğitim Faaliyetlerimiz</span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Görsel 1: Tatbikat -->
+                    <div class="group relative overflow-hidden rounded-xl bg-slate-100 shadow-sm border border-slate-200">
+                        <img src="IMG-20160602-WA0035.jpg" alt="Acil Durum ve Tahliye Tatbikatı" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/90 via-slate-900/50 to-transparent p-4">
+                            <span class="inline-block px-2.5 py-0.5 bg-brand-600 text-white text-[10px] font-bold rounded mb-1">Acil Durum</span>
+                            <h4 class="text-white text-sm font-bold">Acil Durum ve Tahliye Tatbikatları</h4>
+                        </div>
+                    </div>
+
+                    <!-- Görsel 2: Sınıf Eğitimi -->
+                    <div class="group relative overflow-hidden rounded-xl bg-slate-100 shadow-sm border border-slate-200">
+                        <img src="IMG-20160602-WA0008.jpg" alt="İSG Temel Eğitimi" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/90 via-slate-900/50 to-transparent p-4">
+                            <span class="inline-block px-2.5 py-0.5 bg-blue-600 text-white text-[10px] font-bold rounded mb-1">Teorik Eğitim</span>
+                            <h4 class="text-white text-sm font-bold">İş Sağlığı ve Güvenliği Temel Eğitimleri</h4>
+                        </div>
+                    </div>
+
+                    <!-- Görsel 3: Saha Bilgilendirmesi / Yangın Eğitimi -->
+                    <div class="group relative overflow-hidden rounded-xl bg-slate-100 shadow-sm border border-slate-200">
+                        <img src="IMG-20160602-WA0022.jpg" alt="Saha Kontrol ve Yangın Eğitimi" class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-900/90 via-slate-900/50 to-transparent p-4">
+                            <span class="inline-block px-2.5 py-0.5 bg-red-600 text-white text-[10px] font-bold rounded mb-1">Saha & Yangın</span>
+                            <h4 class="text-white text-sm font-bold">Uygulamalı Saha ve Yangın Güvenlik Eğitimi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mevzuat Bölümü -->
+    <section id="mevzuat" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-700 font-bold tracking-wider text-xs uppercase bg-brand-100 px-3 py-1 rounded-full">Yasal Dayanaklar</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3">İSG Mevzuatı ve Yönetmelikler</h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">6331 sayılı İş Sağlığı ve Güvenliği Kanunu, 4857 sayılı İş Kanunu ve bunlara bağlı Resmi Gazete'de yayımlanmış tüm temel resmi yönetmelikler.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- 1. 6331 Sayılı Kanun -->
+                <a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6331&MevzuatTur=1&MevzuatTertip=5" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-scale-balanced"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">6331 Sayılı İSG Kanunu</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İş Sağlığı ve Güvenliği Kanunu tam metni ve genel yükümlülükler.</p>
+                </a>
+
+                <!-- 2. 4857 Sayılı Kanun -->
+                <a href="https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4857&MevzuatTur=1&MevzuatTertip=5" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-gavel"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">4857 Sayılı İş Kanunu</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İş hukuku, çalışan ve işveren hak ve sorumlulukları.</p>
+                </a>
+
+                <!-- 3. Risk Değerlendirmesi -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2012/12/20121229-3.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-file-contract"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Risk Değerlendirmesi Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İşyerlerinde tehlike tespiti ve risk analizi esasları.</p>
+                </a>
+
+                <!-- 4. Acil Durumlar -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/06/20130618-1.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-kit-medical"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Acil Durumlar Hakkında Yönetmelik</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İşyerlerinde acil durum planlaması, yangın ve tahliye ekipleri.</p>
+                </a>
+
+                <!-- 5. Çalışanların Eğitimi -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/05/20130515-3.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Çalışanların İSG Eğitim Usulleri</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Zorunlu İSG eğitimlerinin saatleri, konuları ve belgelendirilmesi.</p>
+                </a>
+
+                <!-- 6. İş Ekipmanları -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/04/20130425-7.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-screws-tilted"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İş Ekipmanları Kullanım Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Makine ve basınçlı kapların periyodik kontrol ve muayene şartları.</p>
+                </a>
+
+                <!-- 7. Kişisel Koruyucu Donanım (KKD) -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/07/20130702-6.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">KKD Kullanımı Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Kişisel koruyucu donanımların seçimi, temini ve kullanımı.</p>
+                </a>
+
+                <!-- 8. Sağlık ve Güvenlik İşaretleri -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/09/20130911-5.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Sağlık ve Güvenlik İşaretleri</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İşyerlerinde bulunması gereken ikaz, yasak ve yönlendirme levhaları.</p>
+                </a>
+
+                <!-- 9. İşyeri Bina ve Eklentileri -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/07/20130717-3.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İşyeri Bina ve Eklentileri</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Bina fiziksel alanları, havalandırma, aydınlatma ve tesisat standartları.</p>
+                </a>
+
+                <!-- 10. İSG Hizmetleri Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2012/12/20121229-2.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İSG Hizmetleri Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İşverenlerin İSG hizmeti alma yükümlülükleri ve çalışma süreleri.</p>
+                </a>
+
+                <!-- 11. İş Güvenliği Uzmanları Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2012/12/20121229-5.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-user-gear"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İş Güvenliği Uzmanları Görev Yön.</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İSG Uzmanlarının yetki, sorumluluk, çalışma saatleri ve eğitimleri.</p>
+                </a>
+
+                <!-- 12. İşyeri Hekimi Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/07/20130720-4.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-stethoscope"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İşyeri Hekimleri Görev Yön.</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">İşyeri Hekimlerinin görev, yetki, sağlık gözetimi ve sorumlulukları.</p>
+                </a>
+
+                <!-- 13. İSG Kurulları Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/01/20130118-4.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">İSG Kurulları Hakkında Yönetmelik</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">50 ve üzeri çalışan olan işyerlerinde kurul oluşumu ve toplanma esasları.</p>
+                </a>
+
+                <!-- 14. Kimyasal Maddelerle Çalışmalar -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/08/20130812-1.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-flask font-bold"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Kimyasal Maddelerle Çalışmalar</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Tehlikeli kimyasallarla çalışmada maruziyet ve güvenlik önlemleri.</p>
+                </a>
+
+                <!-- 15. Gürültü Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/07/20130728-10.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Gürültü Riskleri Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Çalışanların gürültü maruziyet sınır değerleri ve kulak koruyucu önlemler.</p>
+                </a>
+
+                <!-- 16. Titreşim Yönetmeliği -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/08/20130817-5.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-wave-square"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Titreşim Riskleri Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Mekanik titreşime maruziyette el-kol ve tüm vücut sınır değerleri.</p>
+                </a>
+
+                <!-- 17. Ekranlı Araçlarla Çalışmalar -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/04/20130416-4.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-desktop"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Ekranlı Araçlarla Çalışmalar</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Ofis ve bilgisayar başı çalışmalarda ergonomi ve göz sağlığı şartları.</p>
+                </a>
+
+                <!-- 18. Elle Taşıma İşleri -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/07/20130724-6.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-box-open"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Elle Taşıma İşleri Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Yük kaldırma, taşıma ve sırt/bel incinmelerini önleme standartları.</p>
+                </a>
+
+                <!-- 19. Gebe ve Emziren Çalışanlar -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/08/20130816-6.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-person-pregnant"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Gebe ve Emziren Kadın Çalışanlar</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Gebe, yeni doğum yapmış ve emziren çalışanların çalışma koşulları.</p>
+                </a>
+
+                <!-- 20. Biyolojik Etkenler -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2013/06/20130615-5.htm" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-vial-virus"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Biyolojik Etkenler Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">Biyolojik risk faktörlerine maruziyetin önlenmesi ve hijyen tedbirleri.</p>
+                </a>
+
+                <!-- 21. Genç ve Çocuk İşçiler -->
+                <a href="https://www.resmigazete.gov.tr/eskiler/2004/04/20040406.htm#1" target="_blank" rel="noopener noreferrer" class="group p-6 bg-slate-50 border border-slate-200 rounded-2xl hover:bg-brand-50 hover:border-brand-300 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <div class="w-10 h-10 bg-brand-100 text-brand-700 rounded-lg flex items-center justify-center font-bold text-lg group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-child-reaching"></i>
+                        </div>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-slate-400 group-hover:text-brand-600 transition-colors"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-navy-900 mb-2">Çocuk ve Genç İşçiler Yönetmeliği</h3>
+                    <p class="text-slate-500 text-xs leading-relaxed">18 yaş altı genç ve çocuk işçilerin çalıştırılma usul ve yasaklı işleri.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Referanslar Bölümü -->
+    <section id="referanslar" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-400 font-bold tracking-wider text-xs uppercase bg-slate-800 border border-slate-700 px-3 py-1 rounded-full">Güçlü İş Birlikleri</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 text-white">Güvendiğiniz İş Ortaklarınız</h2>
+                <p class="text-slate-400 mt-3 text-sm sm:text-base">Farklı sektörlerden önde gelen kurum ve kuruluşlara İSG çözümleri sunmanın gururunu yaşıyoruz.</p>
+            </div>
+
+            <!-- Grid Referanslar -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 sm:gap-6">
+                
+                <!-- Referans İsimleri -->
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Çetin Cıvata</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Mertsom Somun</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Dresselhaus</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">İbrahim Fikret Polat Holding</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Dönerci Ali Usta</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Devnak Lojistik</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Netlog Lojistik</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Prizma Matbaacılık</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">WBR Reklamcılık</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">İnvest İnşaat A.Ş.</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Bonfilet</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Polatyol İnşaat A.Ş.</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Star Alüminyum</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-xs sm:text-sm text-slate-200 group-hover:text-white">FertiJin Kadın Sağlığı & Tüp Bebek</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-xs sm:text-sm text-slate-200 group-hover:text-white">Bahçeşehir Gaz Dağıtım A.Ş.</span>
+                </div>
+                <div class="bg-slate-800/80 border border-slate-700/60 p-5 rounded-xl flex items-center justify-center text-center hover:border-brand-500 transition-colors group">
+                    <span class="font-bold text-sm sm:text-base text-slate-200 group-hover:text-white">Siber Yapı A.Ş.</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="iletisim" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                
+                <div class="text-center mb-12">
+                    <span class="text-brand-700 font-bold tracking-wider text-xs uppercase bg-brand-100 px-3 py-1 rounded-full">Bize Ulaşın</span>
+                    <h2 class="text-3xl font-extrabold text-navy-900 mt-3">İletişim & Lokasyon</h2>
+                    <p class="text-slate-600 mt-2 text-sm sm:text-base">Sorularınız, hizmet talepleriniz ve danışmanlık ihtiyaçlarınız için hemen bizimle iletişime geçin.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    
+                    <!-- Telefon -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center flex flex-col items-center hover:border-brand-300 transition-all">
+                        <div class="w-14 h-14 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-4 shadow-md shadow-brand-600/20">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Telefon</h4>
+                        <a href="tel:05511000022" class="text-lg font-bold text-navy-900 hover:text-brand-600 transition-colors block">
+                            0551 100 00 22
+                        </a>
+                        <p class="text-xs text-slate-500 mt-2">Hafta içi: 08:30 - 18:00</p>
+                    </div>
+
+                    <!-- E-posta -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center flex flex-col items-center hover:border-brand-300 transition-all">
+                        <div class="w-14 h-14 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-4 shadow-md shadow-brand-600/20">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">E-posta Adresi</h4>
+                        <a href="mailto:istanbulisig@gmail.com" class="text-base font-bold text-navy-900 hover:text-brand-600 transition-colors block break-all">
+                            istanbulisig@gmail.com
+                        </a>
+                        <p class="text-xs text-slate-500 mt-2">7/24 Dijital Danışma & Teklif</p>
+                    </div>
+
+                    <!-- Adres -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 text-center flex flex-col items-center hover:border-brand-300 transition-all">
+                        <div class="w-14 h-14 bg-brand-600 text-white rounded-2xl flex items-center justify-center text-2xl mb-4 shadow-md shadow-brand-600/20">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h4 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Adres</h4>
+                        <p class="text-base font-bold text-navy-900">İstinye Mahallesi, Merkez</p>
+                        <p class="text-xs text-slate-500 mt-1">Sarıyer / İstanbul</p>
+                    </div>
+
+                </div>
+
+                <!-- Detaylı Özgeçmiş Bilgilendirme Kutusu -->
+                <div class="mt-8 bg-amber-50 border border-amber-200 p-4 rounded-xl flex items-center justify-center space-x-3 text-center">
+                    <i class="fa-solid fa-file-pdf text-amber-600 text-xl"></i>
+                    <p class="text-xs sm:text-sm text-slate-700">Eksik bilgiler veya detaylı referans havuzumuz için CV'mi talep üzerine e-posta veya WhatsApp ile iletebilirim.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Alt Bilgi -->
+    <footer class="bg-slate-950 text-slate-400 py-8 border-t border-slate-800 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-xs">
+            <div>
+                <p>&copy; <span id="year"></span> Selami Oruç - Sarıyer OSGB, İSG Danışmanlığı ve İş Güvenliği Uzmanlığı. Tüm Hakları Saklıdır.</p>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-4">
+                <span>A Sınıfı İş Güvenliği Uzmanı</span>
+                <span>•</span>
+                <span>Endüstri Mühendisi</span>
+                <span>•</span>
+                <a href="tel:05511000022" class="hover:text-brand-400 transition-colors">0551 100 00 22</a>
+                <span>•</span>
+                <a href="mailto:istanbulisig@gmail.com" class="hover:text-brand-400 transition-colors">istanbulisig@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- Arama Motoru İndeksleme İçin Görünmez Etiket Alanı (SEO Tag Cloud) -->
+        <div class="sr-only" aria-hidden="true">
+            <h2>Sarıyer OSGB</h2>
+            <h2>sarıyerosgb</h2>
+            <h2>isg</h2>
+            <h2>iş güvenliği</h2>
+            <h2>iş güvenliği uzmanlığı</h2>
+            <h2>iş güvenliği uzmanı</h2>
+            <p>Sarıyer İstinye bölgesinde A Sınıfı İş Güvenliği Uzmanı Selami Oruç İSG ve İşyeri Hekimliği Danışmanlık Hizmetleri.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Kodları -->
+    <script>
+        // Mobil menü geçişi
+        const mobileMenuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Menü linklerine tıklandığında mobil menüyü kapatma
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Dinamik Yıl Güncellemesi
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
